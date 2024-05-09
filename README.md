@@ -1,16 +1,17 @@
-### Hi there 👋
+class Programmer(object):
 
-<!--
-**edemott/edemott** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def __init__(self, name, major, interests):
+        self.name = name
+        self.major = major
+        self.interests = interests
+        
+    def greet(self):
+        print("Hello! Welcome to my profile.")
 
-Here are some ideas to get you started:
+me = Programmer(
+    name = "Rithik",
+    major = "Data Science",
+    interests = ["Piano", "Cooking", "RPGs"]
+)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+me.greet()

@@ -10,9 +10,9 @@ class Programmer(object):
         print("Hello! Welcome to my profile.")
 
 me = Programmer(
-    name = "Rithik",
+    name = "Ethan",
     major = "Data Science",
-    interests = ["Piano", "Cooking", "RPGs"]
+    interests = ["Faith", "Music", "Travel"]
 )
 
 me.greet()

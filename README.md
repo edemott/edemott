@@ -12,7 +12,7 @@ class Programmer(object):
 me = Programmer(
     name = "Ethan",
     major = "Data Science",
-    interests = ["Faith", "Music", "Travel"]
+    interests = ["Faith", "Music", "Travel, Outdoors"]
 )
 
 me.greet()
